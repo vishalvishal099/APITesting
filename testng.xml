@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="api testing suite">
+ <!-- 	<listeners>
+	<listener class neme =""></listener>
+	</listeners> -->
+	<test name="Api testing" thread-count="5">
+
+		<classes>
+			<class name="com.employeeApi.testcases.DeleteEmployeeApi" />
+			<class name="com.employeeApi.testcases.GetAllEmployes" />
+			<class name="com.employeeApi.testcases.GetEmployee" />
+			<class name="com.employeeApi.testcases.PostCreateEmployee" />
+			<class name="com.employeeApi.testcases.PutEmployeeApi" />
+
+		</classes>
+
+	</test>
+
+</suite>
